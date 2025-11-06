@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.dark{
+    background-color: #0f0f13;
+    transition: 0.3s ease-in-out;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.light{
+    background-color: #ffffff;
+    transition: 0.3s ease-in-out;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+button {
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: 1px solid;
+  cursor: pointer;
+  font-size: medium;
+  border-radius: 10px;
+  width: 180px;
+  height: 50px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
